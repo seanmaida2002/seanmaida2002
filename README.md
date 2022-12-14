@@ -1,7 +1,6 @@
 - 👋 Hi, I’m @seanmaida2002
 - 👀 I’m majoring in cybersecurity
 - 📚 I'm going to Stevens Institute of Technology
-- 💞️ I’m looking to collaborate on any cool, fun projects
 - 📫 How to reach me smaida@stevens.edu, smaida2002@yahoo.com
 
 <!---
