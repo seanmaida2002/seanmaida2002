@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @seanmaida2002
-- 👀 I’m majoring in cybersecurity
+- 👀 I’m majoring in Computer Science
 - 📚 I'm going to Stevens Institute of Technology
 - 📫 How to reach me smaida@stevens.edu, smaida2002@yahoo.com
 
