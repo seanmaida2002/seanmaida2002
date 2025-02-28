@@ -1,5 +1,4 @@
 html {
-    /* font-family: "Bevan", "Poppins", sans-serif; */
     font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -10,9 +9,9 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-  }
+}
 
-  #navbar-container {
+#navbar-container {
     position: fixed;
     z-index: 999;
     display: flex;
@@ -23,82 +22,80 @@ body {
     width: 100vw;
     height: 5rem;
     background-color: #ffffff;
-    /* box-shadow: 0 2px 8px rgba(241, 241, 241, 0.073); */
     box-shadow: 0 1px 12px #003087;
     border-bottom: 1px solid #003087;
-  
+
     a {
-      color: inherit;
-      text-decoration: none;
-      height: auto;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-  
-    #navbar-logo {
-      font-size: 1em;
-      width: 12rem;
-      height: auto;
-      text-align: left;
-      margin-left: 2rem;
-  
-      img {
-        width: 20rem;
+        color: inherit;
+        text-decoration: none;
         height: auto;
-      }
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
-  }
-  
-  #navbar-links-container {
+
+    #navbar-logo {
+        font-size: 1em;
+        width: 12rem;
+        height: auto;
+        text-align: left;
+        margin-left: 2rem;
+
+        img {
+            width: 20rem;
+            height: auto;
+        }
+    }
+}
+
+#navbar-links-container {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     list-style-type: none;
     margin-right: 4rem;
-    /* width: 30rem; */
     gap: 1.75rem;
-  
-    li {
-      font-size: 2em;
-      width: auto;
-      padding: 0.1rem;
-      border-bottom: 1px solid transparent;
-      transition: 0.2s ease-in-out all;
-      color: #0094ff;
-  
-      img {
-        width: 2.5rem;
-        border: 2px solid transparent;
-        border-radius: 50%;
-        transition: 0.2s ease-in-out all;
-      }
-  
-      img:hover {
-        /* filter: brightness(0) invert(1) sepia(1) saturate(3) hue-rotate(200deg); */
-        border: 2px solid #003087;
-      }
-    }
-  
-    li:not(:has(> a > img)):after {
-      display: block;
-      content: "";
-      border-bottom: solid 1px #003087;
-      transform: scaleX(0);
-      transition: transform 250ms ease-in-out;
-    }
-  
-    li:not(:has(> a > img)):hover:after {
-      transform: scaleX(1);
-    }
-  
-    .blue-link {
-      color: #003087;
-    }
-  }
 
-  #footer-container {
+    li {
+        font-size: 2em;
+        width: auto;
+        padding: 0.1rem;
+        border-bottom: 1px solid transparent;
+        transition: 0.2s ease-in-out all;
+        color: #0094ff;
+
+        img {
+            width: 2.5rem;
+            border: 2px solid transparent;
+            border-radius: 50%;
+            transition: 0.2s ease-in-out all;
+        }
+
+        img:hover {
+            /* filter: brightness(0) invert(1) sepia(1) saturate(3) hue-rotate(200deg); */
+            border: 2px solid #003087;
+        }
+    }
+
+    li:not(:has(> a > img)):after {
+        display: block;
+        content: "";
+        border-bottom: solid 1px #003087;
+        transform: scaleX(0);
+        transition: transform 250ms ease-in-out;
+    }
+
+    li:not(:has(> a > img)):hover:after {
+        transform: scaleX(1);
+    }
+
+    .blue-link {
+        color: #003087;
+    }
+}
+
+#footer-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,17 +104,54 @@ body {
     gap: 3rem;
     background-color: #fefefe;
     margin-top: auto;
-  }
+}
 
-  #footer-box {
+#footer-box {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem; /* Space between logos */
+    gap: 2rem;
     padding: 1rem;
 }
 
 #footer-box img {
-    width: 50px; /* Adjust logo size */
+    width: 50px;
     height: auto;
+}
+
+#about-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 5rem;
+    margin-top: 4rem;
+}
+
+#about-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    max-width: 800px;
+    width: 90%;
+    color: black
+}
+
+#about-left, #about-right {
+    flex: 1; 
+    text-align: left;
+    background-color: white; 
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+#about-left li, #about-right li {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+#about-center{
+    text-align: center;
 }
