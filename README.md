@@ -1,5 +1,3 @@
-Welcome To My Porfolio Website
-
 - 👋 Hi, I’m Sean Maida (@seanmaida2002)
 - 👀 I’m majoring in Computer Science
 - 📚 I'm going to Stevens Institute of Technology
