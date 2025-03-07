@@ -4,7 +4,7 @@
 - 👀 I'm looking for help with finding jobs after I graduate. 
 - 📫 How to reach me smaida@stevens.edu, smaida2002@yahoo.com
 
-##Technical Skills
+## Technical Skills
 - JavaScript
 - Node.js
 - React.js
