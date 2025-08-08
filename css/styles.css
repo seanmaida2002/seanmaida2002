@@ -185,7 +185,7 @@ body {
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
     gap: 2rem; /* Spacing between project boxes */
     width: 90%;
-    max-width: 1000px; /* Limit the grid's width */
+    max-width: 1200px; /* Limit the grid's width */
     padding-left: 2rem;
 }
 
