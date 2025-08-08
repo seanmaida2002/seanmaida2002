@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Sean Maida
-- 👀 I’m majoring in Computer Science
-- 📚 I'm going to Stevens Institute of Technology
+- 👀 I’m majoring in Computer Science.
+- 📚 I graduated from Stevens Institute of Technology.
 - 🤔 I'm looking for help with finding jobs after I graduate. 
 - 📫 How to reach me smaida@stevens.edu, smaida2002@yahoo.com
 
