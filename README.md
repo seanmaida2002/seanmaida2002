@@ -1,21 +1,22 @@
 - 👋 Hi, I’m Sean Maida
-- 👀 I’m majoring in Computer Science.
+- 👀 Bachelor of Science in Computer Science.
 - 📚 I graduated from Stevens Institute of Technology.
-- 🤔 I'm looking for help with finding jobs after I graduate. 
-- 📫 How to reach me smaida@stevens.edu, smaida2002@yahoo.com
+- 🤔 I'm looking for help with finding a full time job in software development or data analytics. 
+- 📫 How to reach me: smaida2002@yahoo.com
 
 ## Technical Skills
 - Python
 - JavaScript
-- Node.js
-- React.js
-- Express.js
-- HTML
-- CSS
+  - Node.js
+  - React.js
+  - Express.js
+- HTML/CSS
 - Java
 - MongoDB
 - Visual Studio Code
 - Git
+- Microsoft Excel
+- Microsoft Power BI
 
 
 <!---
